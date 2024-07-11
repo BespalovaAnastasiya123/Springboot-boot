@@ -1,7 +1,5 @@
 package org.itstep;
 
-
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,7 +14,7 @@ public class Application {
         SpringApplication.run(Application.class,
                 args);
     }
-    // @RestController//2
+   // @RestController//2
     //static class Controller{
 
     @RequestMapping("/")
@@ -33,5 +31,4 @@ public class Application {
         return String.format("<h1>Hello %s</h1>", name);
     }
 
-}
-
+    }
