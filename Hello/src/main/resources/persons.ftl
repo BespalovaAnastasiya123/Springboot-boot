@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Users</title>
+    <link href = "../static/style.css" rel="stylesheet">
 </head>
 <body>
 <form id="form-new" action ="/persons" method="post">
