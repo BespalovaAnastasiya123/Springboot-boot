@@ -1,4 +1,4 @@
-package org.example.changeable;
+package org.itstep.changeable;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
